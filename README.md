@@ -1,0 +1,1 @@
+# go-fips-140-static-check
