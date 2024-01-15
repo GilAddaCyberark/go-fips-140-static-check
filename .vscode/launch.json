@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Fips Lint: Main",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}/cmd/fips-lint/main.go",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "examples/main.go"
+            ] 
+        },
+        {
+            "name": "Call grpah",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}/cmd/call-graph/main.go",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "examples/main.go"
+            ] 
+        }
+    ]
+}
